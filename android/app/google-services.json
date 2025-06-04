@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "613061471753",
+    "project_id": "focusnotes-37060",
+    "storage_bucket": "focusnotes-37060.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613061471753:android:f7a6dc502173f812ce92d8",
+        "android_client_info": {
+          "package_name": "com.codexai.focusnotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyrOPeHom_DuK90BfJxJX_5IwpgoZcIJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
