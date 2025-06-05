@@ -3,7 +3,7 @@ name: Flutter Android Build
 on:
   push:
     branches:
-      - master  # or 'main' if your branch is named that
+      - master  # or 'main' if applicable
   workflow_dispatch:
 
 jobs:
@@ -11,12 +11,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: Install Flutter
       uses: subosito/flutter-action@v2
       with:
-        flutter-version: '3.22.0'  # Change if needed
+        flutter-version: '3.22.0'
 
     - name: Install dependencies
       run: flutter pub get
